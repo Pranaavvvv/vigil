@@ -1,0 +1,60 @@
+{
+  "pr_auc": 0.6623159821219279,
+  "precision_at_budget": 0.9455419113721303,
+  "fpr_at_budget": 0.0005571578395385422,
+  "alert_budget_size": 1873,
+  "risk_threshold": 96.9,
+  "n_alerts": 1891,
+  "feature_importances": {
+    "geo_deviation": 0.44450515138797314,
+    "profile_deviation_score": 0.3524821857142766,
+    "duration_deviation": 0.03495804081046056,
+    "degree_change": 0.0347345225540206,
+    "new_edge_ratio": 0.03392980079019754,
+    "hour_deviation": 0.029735360736955832,
+    "sequence_score": 0.02804413126251544,
+    "gcn_score": 0.017070045085338457,
+    "neighborhood_overlap": 0.0163556697500747,
+    "graph_score": 0.00818509190818699,
+    "suspicion_propagation": 0.0,
+    "resource_novelty": 0.0,
+    "device_novelty": 0.0
+  },
+  "classification_report": {
+    "0": {
+      "precision": 0.9953389460191686,
+      "recall": 0.9331421548545678,
+      "f1-score": 0.9632375743565166,
+      "support": 36615.0
+    },
+    "1": {
+      "precision": 0.22162162162162163,
+      "recall": 0.8133022170361727,
+      "f1-score": 0.34832583708145926,
+      "support": 857.0
+    },
+    "accuracy": 0.930401366353544,
+    "macro avg": {
+      "precision": 0.6084802838203951,
+      "recall": 0.8732221859453702,
+      "f1-score": 0.6557817057189879,
+      "support": 37472.0
+    },
+    "weighted avg": {
+      "precision": 0.9776437136587742,
+      "recall": 0.930401366353544,
+      "f1-score": 0.9491742908689866,
+      "support": 37472.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      182966,
+      106
+    ],
+    [
+      2501,
+      1785
+    ]
+  ]
+}

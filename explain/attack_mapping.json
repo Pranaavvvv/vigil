@@ -1,0 +1,50 @@
+{
+  "normal": {
+    "technique_id": null,
+    "technique_name": null,
+    "tactic": null,
+    "description": "Normal behavioral pattern"
+  },
+  "brute_force": {
+    "technique_id": "T1110",
+    "technique_name": "Brute Force",
+    "tactic": "Credential Access",
+    "description": "Adversary attempts to gain access by systematically trying many passwords or credentials."
+  },
+  "impossible_travel": {
+    "technique_id": "T1078",
+    "technique_name": "Valid Accounts",
+    "tactic": "Defense Evasion, Persistence",
+    "description": "Compromised credentials used from geographically impossible locations within a short time window."
+  },
+  "credential_stuffing": {
+    "technique_id": "T1110.004",
+    "technique_name": "Credential Stuffing",
+    "tactic": "Credential Access",
+    "description": "Adversary uses lists of compromised credentials to attempt access across many accounts."
+  },
+  "lateral_movement": {
+    "technique_id": "T1021",
+    "technique_name": "Remote Services",
+    "tactic": "Lateral Movement",
+    "description": "Adversary moves through the environment by accessing resources outside their normal scope."
+  },
+  "device_spoofing": {
+    "technique_id": "T1200",
+    "technique_name": "Hardware Additions",
+    "tactic": "Initial Access",
+    "description": "Adversary uses a different device or spoofed device fingerprint to access resources."
+  },
+  "low_and_slow": {
+    "technique_id": "T1041",
+    "technique_name": "Exfiltration Over C2 Channel",
+    "tactic": "Exfiltration",
+    "description": "Adversary gradually increases data access volume and session duration to exfiltrate data below detection thresholds."
+  },
+  "insider_drift": {
+    "technique_id": "T1078.002",
+    "technique_name": "Valid Accounts: Domain Accounts",
+    "tactic": "Defense Evasion, Persistence",
+    "description": "Legitimate user's behavioral profile gradually shifts, indicating potential insider threat or account compromise."
+  }
+}
